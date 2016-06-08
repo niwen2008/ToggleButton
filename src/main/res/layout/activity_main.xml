@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义ToggleButton"
+        android:textSize="20sp" />
+
+    <com.testdemo.togglebutton.view.MToggleButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mToggleButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:leftBackground="#ff0000"
+        app:rightBackground="#00ff00"/>
+</LinearLayout>
